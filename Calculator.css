@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, #7808f0, #06bdf5);
+    line-height: 0.5;
+}
+
+.calci {
+    width: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    transition: 0.25s; /* added 's' for seconds */
+    text-align: center;
+}
+
+#display {
+    border: none;
+    background: white;
+    border-radius: 30px;
+    width: 245px; /* added 'px' for pixels */
+    font-size: 20px; /* added 'px' for pixels */
+    font-family: sans-serif;
+    font-weight: 300;
+    height: 60px; /* added 'px' for pixels */
+    margin: auto;
+    border: 2px solid white;
+    color: black;
+}
+
+.btnDesign,
+.operatorDesign,
+#zero {
+    width: 55px; /* added 'px' for pixels */
+    height: 55px; /* added 'px' for pixels */
+    padding-top: -1px; /* you may want to adjust this */
+    background: white;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20px; /* added 'px' for pixels */
+    font-weight: 300;
+    border-radius: 30px;
+    margin: 1.5px; /* added 'px' for pixels */
+}
+
+.operatorDesign {
+    transition: 0.25s; /* added 's' for seconds */
+    cursor: pointer;
+}
+
+.operatorDesign:hover {
+    background: #00d9ff;
+}
+
+#zero {
+    width: 116px; /* added 'px' for pixels */
+}
+
+h1 {
+    color: white;
+    margin-top: 300px;
+    margin-left: 100px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700; /* removed 'px' */
+    font-size: 50px; /* added 'px' for pixels */
+    text-decoration: underline;
+}
+
+h2 {
+    color: cyan;
+    margin-top: -1px;
+    margin-left: 460px;
+    font-family: sans-serif;
+    font-weight: 500; /* removed 'px' */
+    font-size: 40px; /* added 'px' for pixels */
+}
